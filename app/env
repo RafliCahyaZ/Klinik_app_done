@@ -3,7 +3,7 @@ CHARACTER SET utf8mb4
 COLLATE utf8mb4_unicode_ci;
 
 CREATE USER IF NOT EXISTS 'klinik_app'@'localhost'
-IDENTIFIED BY 'PASSWORD_KAMU';
+IDENTIFIED BY '';
 
 GRANT ALL PRIVILEGES ON klinik.* TO 'klinik_app'@'localhost';
 
